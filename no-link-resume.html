@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kentaro Vadney - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.5in;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 10pt;
+            line-height: 1.3;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 8px;
+        }
+        
+        .header h1 {
+            font-size: 22pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 4px;
+        }
+        
+        .contact-info {
+            font-size: 10pt;
+            color: #666;
+        }
+        
+        .top-section {
+            display: flex;
+            gap: 20px;
+            margin-bottom: 15px;
+        }
+        
+        .technical-skills {
+            flex: 1;
+            border: 2px solid #2c5aa0;
+            padding: 12px;
+            border-radius: 5px;
+            background: #f8f9ff;
+        }
+        
+        .education {
+            flex: 1;
+            padding: 12px;
+        }
+        
+        .section-title {
+            font-size: 12pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            border-bottom: 1px solid #2c5aa0;
+        }
+        
+        .skill-category {
+            margin-bottom: 6px;
+        }
+        
+        .skill-label {
+            font-weight: bold;
+            display: inline;
+        }
+        
+        .skill-items {
+            display: inline;
+        }
+        
+        .education-item {
+            margin-bottom: 8px;
+        }
+        
+        .university {
+            font-weight: bold;
+            font-size: 11pt;
+            color: #2c5aa0;
+        }
+        
+        .degree {
+            font-weight: bold;
+            margin: 2px 0;
+        }
+        
+        .scholarship {
+            background: #fff2cc;
+            border: 1px solid #d4ac0d;
+            border-radius: 3px;
+            padding: 3px 6px;
+            font-weight: bold;
+            color: #d4ac0d;
+            display: inline-block;
+            margin: 2px 0;
+            font-size: 9pt;
+        }
+        
+        .award-highlight {
+            background: #e8f4fd;
+            border: 1px solid #2c5aa0;
+            border-radius: 3px;
+            padding: 3px 6px;
+            font-weight: bold;
+            color: #2c5aa0;
+            display: inline-block;
+            margin: 2px 0;
+            font-size: 9pt;
+        }
+        
+        .experience {
+            margin-top: 15px;
+        }
+        
+        .job {
+            margin-bottom: 12px;
+        }
+        
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+        
+        .job-title {
+            font-weight: bold;
+            font-size: 11pt;
+        }
+        
+        .company {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .dates {
+            font-style: italic;
+            color: #666;
+            font-size: 9pt;
+        }
+        
+        .job-description {
+            margin-left: 0;
+        }
+        
+        .job-description li {
+            margin-bottom: 2px;
+            list-style-position: outside;
+            margin-left: 15px;
+        }
+        
+        .research-section {
+            margin-top: 10px;
+            padding: 8px;
+            background: #f5f5f5;
+            border-radius: 3px;
+        }
+        
+        .research-title {
+            font-weight: bold;
+            color: #2c5aa0;
+            font-size: 10pt;
+        }
+        
+        @media print {
+            body {
+                font-size: 9pt;
+            }
+            .header h1 {
+                font-size: 20pt;
+            }
+            .section-title {
+                font-size: 11pt;
+            }
+            .job-title {
+                font-size: 10pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KENTARO VADNEY</h1>
+        <div class="contact-info">
+            Santa Clara, CA 95050 | (424) 533-9384 | kentarovadney@gmail.com | LinkedIn: [ADD URL] | GitHub: [ADD URL]
+        </div>
+    </div>
+    
+    <div class="top-section">
+        <div class="technical-skills">
+            <div class="section-title">Technical Skills</div>
+            <div class="skill-category">
+                <span class="skill-label">Languages:</span>
+                <span class="skill-items">
+                    Python, Java, JavaScript, TypeScript, Rust, SQL, Solidity, HTML/CSS
+                </span>
+            </div>
+            <div class="skill-category">
+                <span class="skill-label">Frameworks/Libraries:</span>
+                <span class="skill-items">
+                    React, Vite, Node.js, FastAPI, Flask, Express, Django, Angular, Tailwind, PyTorch
+                </span>
+            </div>
+            <div class="skill-category">
+                <span class="skill-label">Cloud & DevOps:</span>
+                <span class="skill-items">
+                    AWS, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, CircleCI
+                </span>
+            </div>
+            <div class="skill-category">
+                <span class="skill-label">Databases:</span>
+                <span class="skill-items">
+                    PostgreSQL, MySQL, MongoDB
+                </span>
+            </div>
+            <div class="skill-category" style="margin-bottom: 0;">
+                <span class="skill-label">Platforms:</span>
+                <span class="skill-items">
+                    Jira, Confluence, Notion, Coda, Zendesk, CursorAI, Windsurf
+                </span>
+            </div>
+        </div>
+        
+        <div class="education">
+            <div class="section-title">Education</div>
+            <div class="education-item">
+                <div class="university">University of California, Berkeley</div>
+                <div class="dates">Aug 2019 – May 2023</div>
+                <div class="degree">B.A., Computer Science</div>
+                <div class="scholarship">🏆 REGENTS' & CHANCELLOR'S SCHOLAR</div>
+                <br>
+                <div class="award-highlight">🥇 UCSB Hackathon 2020 Grand Prize - ML App</div>
+            </div>
+            
+            <div class="research-section">
+                <div class="research-title">Research Focus Areas:</div>
+                <div>• Distributed Systems</div>
+                <div>• AI Labor Market Analysis</div>
+                <div>• Natural Language Translation</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="experience">
+        <div class="section-title">Experience</div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Full Stack Software Engineer</span> @ <span class="company">Centigrade</span></div>
+                <div class="dates">Apr 2025 – Aug 2025</div>
+            </div>
+            <ul class="job-description">
+                <li>Led development of FastAPI backend services and database migrations, improving query scalability and supporting 100tx/mo</li>
+                <li>Redesigned frontend routing and improved UI responsiveness with React.js/Tailwind, reducing page load time by 50% and boosting accessibility scores from 30 to 90</li>
+                <li>Created concept AWS Kendra index with Python powering product-wide AI search and summary features</li>
+                <li>Drove team workflow efficiency using Jira, Confluence, GitHub PRs, CircleCI, and Amplify</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Founding Full Stack Software Engineer</span> @ <span class="company">CarbonSustain</span></div>
+                <div class="dates">May 2024 – Dec 2024</div>
+            </div>
+            <ul class="job-description">
+                <li>Led architecture and development of blockchain-based data and credit system from prototype to MVP</li>
+                <li>Built & deployed Node.js backend with FastAPI integrations and XRPL ledger connections</li>
+                <li>Integrated Angular and TypeScript frontend with PostgreSQL data server for scalable user-facing features</li>
+                <li>Designed and provisioned AWS infrastructure (EC2, S3, CloudFront, Terraform) to support live production</li>
+                <li>Delivered custom client demos leveraging Python scripts and LLM APIs, securing enterprise pilots</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">R&D Software Engineer</span> @ <span class="company">Belden</span></div>
+                <div class="dates">Jul 2023 – May 2024</div>
+            </div>
+            <ul class="job-description">
+                <li>Developed container ingress features & LLM tools with Python, Java, REST APIs, and Kubernetes</li>
+                <li>Re-defined Android app testing workflow, improving modularity and readability</li>
+                <li>Re-designed AI cybersecurity models to expand product's data coverage and strengthen defenses</li>
+                <li>Optimized EDA notebooks (Dask, Pycaret, visualization tools) to analyze 200+ GB CSVs</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Fellow/Liaison</span> @ <span class="company">Berkeley Blockchain Accelerator</span></div>
+                <div class="dates">Jan 2021 – Apr 2022</div>
+            </div>
+            <ul class="job-description">
+                <li>Evaluated 50 blockchain startups, several later raising $650M+ in funding</li>
+                <li>Researched and published industry and fundraising news to a 3k+ subscriber audience</li>
+                <li>Deployed Stellar blockchain nodes via onFinality in AWS Kubernetes using Docker, improving ecosystem reliability</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div><span class="job-title">Researcher</span> @ <span class="company">UC Berkeley RISE Lab</span></div>
+                <div class="dates">Aug 2021 – Dec 2021</div>
+            </div>
+            <ul class="job-description">
+                <li>Led 5-person research team on replicated state machine protocols, delivering published results</li>
+                <li>Simulated distributed system traffic (Python, Numpy, Pandas) for performance testing</li>
+                <li>Co-authored paper on round-robin consensus with symmetric encryption, contributing to academic literature</li>
+            </ul>
+        </div>
+        
+        <div style="display: flex; gap: 20px;">
+            <div class="job" style="flex: 1;">
+                <div class="job-header" style="font-size: 9pt;">
+                    <div><span class="job-title">Full Stack Intern</span> @ <span class="company">Astar Network</span></div>
+                    <div class="dates">May 2021 – Aug 2021</div>
+                </div>
+                <ul class="job-description">
+                    <li>Deployed Rust smart contracts with WASM, Solidity, enabling cross-chain deployment</li>
+                    <li>Built Discord token generator bot integrated with Polkadot.js, Ethers.js, Web3.js</li>
+                    <li>Published developer docs in English and Japanese, driving adoption</li>
+                </ul>
+            </div>
+            
+            <div class="job" style="flex: 1;">
+                <div class="job-header" style="font-size: 9pt;">
+                    <div><span class="job-title">Frontend Intern</span> @ <span class="company">OkX</span></div>
+                    <div class="dates">Jan 2021 – May 2021</div>
+                </div>
+                <ul class="job-description">
+                    <li>Delivered MVP features for decentralized exchange (DEX) using React.js, ChakraUI, Onboard.js</li>
+                    <li>Secured frontend web app with input sanitation, source limiting, and security testing</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
