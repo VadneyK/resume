@@ -20,3 +20,7 @@ role where tech depth matters
 
 for non-technical roles (PM, business analyst, consulting, finance)
 made this in case I wanna do something dif
+
+## linguist resume
+
+you know, I really enjoyed that dwight t uchida translation project. I'd really like to get a role doing similar work using the Japanese that my mother taught me.
