@@ -24,3 +24,7 @@ made this in case I wanna do something dif
 ## linguist resume
 
 you know, I really enjoyed that dwight t uchida translation project. I'd really like to get a role doing similar work using the Japanese that my mother taught me.
+
+## simple linguist resume
+
+left and right block design was having a hard time converting to .docx so made it simple.
