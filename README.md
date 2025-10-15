@@ -1,14 +1,18 @@
 # resume
 
-vanilla CSS is better than Tailwind bc:
+how to render html resume and get pdf:
+1) install vscode (or any knock off code editor)
+2) install `Live Server` extention
+3) right click .html file and click `open with live server`
+4) print that rendered page as a pdf into your pc
 
-@page rules and print-specific media queries work better w/ custom CSS
+technical reasoning:
+used vanilla CSS over Tailwind bc:
 
-more exact control
-
-easier to share
-
-consistent rendering.
+- @page rules and print-specific media queries work better w/ custom CSS
+- more exact control
+- easier to share
+- consistent rendering.
 
 ## link-heavy-resume
 
