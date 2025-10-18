@@ -1,0 +1,54 @@
+I’ll generate a clean .txt-ready application package under the 10 MB limit.
+
+Japanese Voice Talent application (.txt-compatible)
+
+Personal Information
+ • First name: Kentaro
+ • Last name: Vadney
+ • Email: kentarovadney@gmail.com
+ • Confirm email: kentarovadney@gmail.com
+ • City: Santa Clara, CA
+ • Phone number: (424) 533-9384
+
+Experience
+ • Japanese Linguistics Researcher & Translator — UC Berkeley Bancroft Library — Nov 2019–May 2021 — Berkeley, CA
+ ▫ Analyzed historical Japanese scrapbook in cursive kuzushi-ji; strong command of phonetics, prosody, and dialectal variation.
+ ▫ Normalized archaic orthography to modern Japanese; meticulous diction and script handling.
+ ▫ Morphological analysis and homograph disambiguation; precise articulation of honorifics, particles, and conjugations.
+ • Technical Translator & Localization Specialist — Genero Inc — May 2020–Sep 2020 — Tokyo (Remote)
+ ▫ Bilingual EN/JA documentation; consistent register and style.
+ ▫ Localized pitch decks for Japanese audiences; adept at tone, pacing, and clarity in spoken delivery.
+ ▫ Maintained technical accuracy across marketing and technical domains.
+ • AI Labor Market Research Assistant — UC Berkeley Haas School of Business — Jan 2021–Jun 2021 — Berkeley, CA
+ ▫ Built NLP pipelines for classification and entity extraction; familiarity with voice AI data workflows.
+ ▫ Text preprocessing aligned with pronunciation and transcription standards.
+ • Bilingual Technical Writer — Astar Network — May 2021–Aug 2021 — Singapore (Remote)
+ ▫ Published developer docs in English and Japanese; crisp articulation of technical terminology.
+ ▫ Collaborated across time zones; reliable delivery and feedback incorporation.
+ • Informal Voice Actor & Caregiver — Private Families — Ongoing — San Francisco Bay Area
+ ▫ Voice-acted for children; character voices, warm narration, playful prosody.
+ ▫ Consistent positive feedback on clarity and warmth; adaptable styles (gentle, energetic, narrative).
+ ▫ Patience and clear diction suitable for voice datasets.
+
+Education
+ • University of California, Berkeley — B.A., Computer Science — Aug 2019–May 2023
+ ▫ Regents’ & Chancellor’s Scholar
+ ▫ Research focus: Japanese linguistics & translation, NLP, distributed systems
+
+Your Profiles
+ • LinkedIn: https://www.linkedin.com/in/kentarov/
+ • Facebook: (none)
+ • X (Twitter): (none)
+ • Website: https://github.com/VadneyK
+
+Resume (text)
+Kentaro Vadney — Native Japanese speaker with formal work in phonetics, prosody, and dialectal analysis through UC Berkeley’s Bancroft Library kuzushi-ji transcription project. Professional EN/JA translation and localization at Genero Inc; bilingual technical writing at Astar Network; NLP research assistant at Haas using Python for classification and text preprocessing. Longstanding informal voice acting for children—character voices, warm narration, and clear diction. Comfortable following scripts, pronunciation guides, and style constraints; reliable, collaborative, and detail-oriented.
+
+Message to the Hiring Team
+I am a native Japanese speaker with practical voice performance experience and formal training in phonetics, prosody, and dialectal variation. My work at UC Berkeley’s Bancroft Library refined my attention to diction and script interpretation, and my professional EN/JA localization ensures precise control over tone and pacing. I’ve voice-acted for children for years with consistently positive feedback. I can deliver clean, consistent takes, follow direction, and adapt tone from instructional to character reads. Grateful for your consideration and ready to support high-quality Japanese voice data for your Voice AI project.
+
+Consent
+ • Lifted, an Upwork Company™ Privacy Policy: I have read and agree.
+
+Role Target
+ • Japanese Voice Talent for Voice AI Project — San Francisco
