@@ -41,15 +41,6 @@ Experience
   - Published developer docs in English and Japanese; crisp articulation of technical terminology.
   - Collaborated across time zones; reliable delivery and feedback incorporation.
 
-- Title: Informal Voice Actor & Caregiver
-  Company: Private Families
-  Location: San Francisco Bay Area
-  Dates: Ongoing
-  Highlights:
-  - Voice-acted for children; character voices, warm narration, playful prosody.
-  - Consistent positive feedback on clarity and warmth; adaptable styles (gentle, energetic, narrative).
-  - Patience and clear diction suitable for voice datasets.
-
 Education
 Fields marked with * are required.
 Institution*: University of California, Berkeley
@@ -69,10 +60,10 @@ X (fka Twitter): (none)
 Website: https://github.com/VadneyK
 
 Resume (text)
-Kentaro Vadney — Native Japanese speaker with formal work in phonetics, prosody, and dialectal analysis through UC Berkeley's Bancroft Library kuzushi-ji transcription project. Professional EN/JA translation and localization at Genero Inc; bilingual technical writing at Astar Network; NLP research assistant at Haas using Python for classification and text preprocessing. Longstanding informal voice acting for children—character voices, warm narration, and clear diction. Wide vocal range with natural versatility across delivery styles; experience adapting tone, emotion, and character for different contexts. Comfortable following scripts, pronunciation guides, and style constraints; reliable, collaborative, and detail-oriented.
+Kentaro Vadney — Native Japanese speaker with formal training in phonetics, prosody, and dialectal analysis through UC Berkeley's Bancroft Library kuzushi-ji transcription project. Professional EN/JA translation and localization at Genero Inc; bilingual technical writing at Astar Network; NLP research assistant at Haas using Python for classification and text preprocessing. Strong vocal versatility with natural ability to adapt tone, emotion, pacing, and delivery style across contexts—from technical narration to conversational and expressive reads. Clear diction, consistent pronunciation, and attention to script nuance. Comfortable following pronunciation guides, style constraints, and direction; reliable, collaborative, and detail-oriented.
 
 Message to the Hiring Team
-I am a native Japanese speaker with practical voice performance experience and formal training in phonetics, prosody, and dialectal variation. My work at UC Berkeley's Bancroft Library refined my attention to diction and script interpretation, and my professional EN/JA localization ensures precise control over tone and pacing. I've voice-acted for children for years with consistently positive feedback on clarity and warmth. Beyond structured voice work, I have extensive life experience adapting my delivery across diverse social and conversational contexts, giving me natural versatility in vocal performance. I can deliver clean, consistent takes, follow direction, switch between professional and expressive styles, and adapt emotional range from instructional to character reads. Thank you for your consideration; I'm ready to support high-quality Japanese voice data for your Voice AI project.
+I am a native Japanese speaker with formal training in phonetics, prosody, and dialectal variation through my work at UC Berkeley's Bancroft Library, where I analyzed historical Japanese texts in cursive script. My professional EN/JA localization experience at Genero Inc and bilingual technical writing at Astar Network have given me precise control over tone, pacing, and clarity in spoken delivery. I have strong natural vocal versatility—comfortable adapting between professional, conversational, and expressive styles with attention to emotional range and character. I can deliver clean, consistent takes, follow direction and pronunciation guides closely, and maintain quality across extended recording sessions. I'm enthusiastic about contributing high-quality Japanese voice data to your Voice AI project and am ready to collaborate effectively with your team. Thank you for your consideration.
 
 Consent
 Lifted, an Upwork Company™ Privacy Policy: I have read and agree.
