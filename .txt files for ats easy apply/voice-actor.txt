@@ -1,7 +1,3 @@
-I’ll generate a clean .txt-ready application package under the 10 MB limit.
-
-Japanese Voice Talent application (.txt-compatible)
-
 Personal Information
  • First name: Kentaro
  • Last name: Vadney
@@ -41,14 +37,5 @@ Your Profiles
  • X (Twitter): (none)
  • Website: https://github.com/VadneyK
 
-Resume (text)
-Kentaro Vadney — Native Japanese speaker with formal work in phonetics, prosody, and dialectal analysis through UC Berkeley’s Bancroft Library kuzushi-ji transcription project. Professional EN/JA translation and localization at Genero Inc; bilingual technical writing at Astar Network; NLP research assistant at Haas using Python for classification and text preprocessing. Longstanding informal voice acting for children—character voices, warm narration, and clear diction. Comfortable following scripts, pronunciation guides, and style constraints; reliable, collaborative, and detail-oriented.
-
 Message to the Hiring Team
 I am a native Japanese speaker with practical voice performance experience and formal training in phonetics, prosody, and dialectal variation. My work at UC Berkeley’s Bancroft Library refined my attention to diction and script interpretation, and my professional EN/JA localization ensures precise control over tone and pacing. I’ve voice-acted for children for years with consistently positive feedback. I can deliver clean, consistent takes, follow direction, and adapt tone from instructional to character reads. Grateful for your consideration and ready to support high-quality Japanese voice data for your Voice AI project.
-
-Consent
- • Lifted, an Upwork Company™ Privacy Policy: I have read and agree.
-
-Role Target
- • Japanese Voice Talent for Voice AI Project — San Francisco
