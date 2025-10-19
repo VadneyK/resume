@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kentaro Vadney - Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            size: letter;
+            margin: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            font-size: 9.5pt;
+            line-height: 1.35;
+            color: #333;
+            background: white;
+        }
+
+        .container {
+            width: 8.5in;
+            min-height: 11in;
+            margin: 0 auto;
+            padding: 0.45in 0.55in;
+            background: white;
+        }
+
+        header {
+            margin-bottom: 14px;
+            border-bottom: 2px solid #2c3e50;
+            padding-bottom: 8px;
+        }
+
+        h1 {
+            font-size: 26pt;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 6px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px 16px;
+            font-size: 9pt;
+            color: #555;
+        }
+
+        .contact-info span {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-info a {
+            color: #2c3e50;
+            text-decoration: none;
+        }
+
+        section {
+            margin-bottom: 16px;
+        }
+
+        h2 {
+            font-size: 13pt;
+            font-weight: 700;
+            color: #2c3e50;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-bottom: 1.5px solid #bdc3c7;
+            padding-bottom: 3px;
+            margin-bottom: 10px;
+        }
+
+        .summary {
+            font-size: 9.5pt;
+            line-height: 1.5;
+            text-align: justify;
+            color: #444;
+        }
+
+        .job, .education-entry {
+            margin-bottom: 12px;
+        }
+
+        .job-header, .education-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 4px;
+        }
+
+        .job-title {
+            font-weight: 600;
+            font-size: 10.5pt;
+            color: #2c3e50;
+        }
+
+        .company {
+            font-weight: 600;
+            font-size: 10pt;
+            color: #555;
+        }
+
+        .location-date {
+            font-size: 9pt;
+            color: #666;
+            font-style: italic;
+        }
+
+        ul {
+            margin-left: 18px;
+            margin-top: 4px;
+        }
+
+        li {
+            margin-bottom: 3px;
+            font-size: 9.5pt;
+            line-height: 1.4;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .skill-category {
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .degree {
+            font-weight: 600;
+            font-size: 10.5pt;
+            color: #2c3e50;
+        }
+
+        .institution {
+            font-weight: 600;
+            font-size: 10pt;
+            color: #555;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+                padding: 0;
+            }
+            .container {
+                margin: 0;
+                padding: 0.5in 0.6in;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kentaro Vadney</h1>
+            <div class="contact-info">
+                <span>Santa Clara, CA</span>
+                <span>•</span>
+                <span>(424) 533-9384</span>
+                <span>•</span>
+                <span><a href="mailto:kentarovadney@gmail.com">kentarovadney@gmail.com</a></span>
+                <span>•</span>
+                <span><a href="https://www.linkedin.com/in/kentarov/">linkedin.com/in/kentarov</a></span>
+                <span>•</span>
+                <span><a href="https://linktr.ee/kentarov">linktr.ee/kentarov</a></span>
+            </div>
+        </header>
+
+        <section>
+            <h2>Professional Summary</h2>
+            <p class="summary">
+                Native Japanese speaker with formal training in phonetics, prosody, and dialectal analysis. Professional EN/JA translation and localization experience with strong vocal versatility and natural ability to adapt tone, emotion, pacing, and delivery style across contexts. Skilled in technical narration, conversational reads, and expressive performance with clear diction, consistent pronunciation, and attention to script nuance. Background in NLP research, bilingual technical writing, and linguistics with expertise in voice AI data workflows and transcription standards.
+            </p>
+        </section>
+
+        <section>
+            <h2>Education</h2>
+            <div class="education-entry">
+                <div class="job-header">
+                    <div>
+                        <div class="degree">Bachelor of Arts in Computer Science</div>
+                        <div class="institution">University of California, Berkeley</div>
+                    </div>
+                    <div class="location-date">Aug 2019 – May 2023</div>
+                </div>
+                <ul>
+                    <li>Regents' & Chancellor's Scholar</li>
+                    <li>Research focus: Japanese linguistics, NLP, and distributed systems</li>
+                    <li>Winner, UCSB Hackathon Grand Prize (SB Hacks VII, Jan 2021): Car Intelligence Marketplace — ML-powered e-commerce app with computer vision for used car pricing via social uploads</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Professional Experience</h2>
+            
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Japanese Linguistics Researcher & Translator</div>
+                        <div class="company">UC Berkeley Bancroft Library</div>
+                    </div>
+                    <div class="location-date">Berkeley, CA | Nov 2019 – May 2021</div>
+                </div>
+                <ul>
+                    <li>Analyzed historical Japanese scrapbook in cursive kuzushi-ji script; developed strong command of phonetics, prosody, and dialectal variation</li>
+                    <li>Normalized archaic orthography to modern Japanese with meticulous attention to diction and script handling</li>
+                    <li>Conducted morphological analysis and homograph disambiguation; precise articulation of honorifics, particles, and conjugations</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Bilingual Technical Writer</div>
+                        <div class="company">Astar Network</div>
+                    </div>
+                    <div class="location-date">Singapore (Remote) | May 2021 – Aug 2021</div>
+                </div>
+                <ul>
+                    <li>Published developer documentation in English and Japanese with crisp articulation of technical terminology</li>
+                    <li>Collaborated across international time zones with reliable delivery and effective feedback incorporation</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">AI Labor Market Research Assistant</div>
+                        <div class="company">UC Berkeley Haas School of Business</div>
+                    </div>
+                    <div class="location-date">Berkeley, CA | Jan 2021 – Jun 2021</div>
+                </div>
+                <ul>
+                    <li>Built NLP pipelines for classification and entity extraction with familiarity in voice AI data workflows</li>
+                    <li>Performed text preprocessing aligned with pronunciation and transcription standards</li>
+                </ul>
+            </div>
+
+            <div class="job">
+                <div class="job-header">
+                    <div>
+                        <div class="job-title">Technical Translator & Localization Specialist</div>
+                        <div class="company">Genero Inc</div>
+                    </div>
+                    <div class="location-date">Tokyo, Japan (Remote) | May 2020 – Sep 2020</div>
+                </div>
+                <ul>
+                    <li>Created bilingual EN/JA documentation with consistent register and professional style</li>
+                    <li>Localized pitch decks for Japanese audiences; demonstrated expertise in tone, pacing, and clarity in spoken delivery</li>
+                    <li>Maintained technical accuracy across marketing and technical domains</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills & Expertise</h2>
+            <div class="skills">
+                <span><span class="skill-category">Languages:</span> Native Japanese, Fluent English (bilingual)</span> •
+                <span><span class="skill-category">Linguistics:</span> Phonetics, prosody, dialectal analysis, kuzushi-ji transcription</span> •
+                <span><span class="skill-category">Voice:</span> Vocal versatility, tone adaptation, emotional range, pronunciation accuracy</span> •
+                <span><span class="skill-category">Technical:</span> NLP, Python, translation/localization, technical writing</span>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
