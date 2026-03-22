@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kentaro Vadney - Database Engineer Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.35in 0.5in;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 10pt;
+            line-height: 1.3;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.35in 0.5in;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 2.5px solid #2c5aa0;
+            padding-bottom: 5px;
+        }
+        
+        .header h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 2px;
+        }
+        
+        .contact-info {
+            font-size: 9.5pt;
+            color: #666;
+        }
+        
+        .contact-info a {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+        
+        .professional-summary {
+            margin-bottom: 12px;
+            padding: 8px 10px;
+            background: #f8f9ff;
+            border-left: 4px solid #2c5aa0;
+            line-height: 1.4;
+            font-size: 9.5pt;
+        }
+        
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin: 12px 0 6px 0;
+            text-transform: uppercase;
+            border-bottom: 2.5px solid #2c5aa0;
+            padding-bottom: 2px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px 12px;
+            margin-bottom: 10px;
+            font-size: 9.5pt;
+        }
+        
+        .skill-category {
+            margin-bottom: 3px;
+        }
+        
+        .skill-label {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .skill-items {
+            color: #333;
+        }
+        
+        .experience {
+            margin-top: 8px;
+            flex-grow: 1;
+        }
+        
+        .job {
+            margin-bottom: 10px;
+        }
+        
+        .job-header {
+            margin-bottom: 2px;
+        }
+        
+        .job-title-line {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+        
+        .company {
+            color: #2c5aa0;
+        }
+        
+        .separator {
+            color: #666;
+        }
+        
+        .dates {
+            color: #666;
+        }
+        
+        .job-description {
+            margin-left: 16px;
+            margin-top: 3px;
+            font-size: 9.5pt;
+        }
+        
+        .job-description li {
+            margin-bottom: 2px;
+            list-style-type: disc;
+            line-height: 1.35;
+        }
+        
+        .education-section {
+            margin-top: 8px;
+        }
+        
+        .education-item {
+            margin-bottom: 5px;
+        }
+        
+        .degree-line {
+            font-weight: bold;
+            font-size: 10.5pt;
+            margin-bottom: 2px;
+        }
+        
+        .university {
+            color: #2c5aa0;
+        }
+        
+        .education-details {
+            margin-left: 16px;
+            margin-top: 2px;
+            font-size: 9.5pt;
+            line-height: 1.35;
+        }
+        
+        .qualifications {
+            margin-top: 8px;
+            font-size: 9.5pt;
+            line-height: 1.4;
+            padding: 8px 10px;
+            background: #f8f9ff;
+            border-left: 4px solid #2c5aa0;
+        }
+        
+        @media print {
+            body {
+                font-size: 10pt;
+                height: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KENTARO VADNEY</h1>
+        <div class="contact-info">
+            Alameda, CA 94502 | (424) 533-9384 | kentarovadney@gmail.com | <a href="https://www.linkedin.com/in/kentarov/">linkedin.com/in/kentarov</a> | <a href="https://github.com/VadneyK">github.com/VadneyK</a>
+        </div>
+    </div>
+    
+    <div class="professional-summary">
+        Database systems engineer with 2+ years optimizing production databases and cloud infrastructure. Achieved 60% latency reduction and 5x throughput improvements through schema optimization and performance tuning. Experienced in 24/7 production support, incident response, and leading technical teams across enterprise deployments.
+    </div>
+    
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <span class="skill-label">Database:</span>
+            <span class="skill-items">PostgreSQL, MySQL, MongoDB, Redis, Query Optimization, Schema Design, Index Tuning, Backup/Recovery, High Availability</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Systems:</span>
+            <span class="skill-items">Linux, AWS (EC2, S3, RDS, CloudFront), Docker, Kubernetes, Terraform, Distributed Systems</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Languages:</span>
+            <span class="skill-items">Python, SQL, Java, JavaScript, TypeScript, Bash, Rust, Solidity</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">DevOps:</span>
+            <span class="skill-items">CI/CD (GitHub Actions, CircleCI), Monitoring, 24/7 Support, Incident Response, Infrastructure as Code</span>
+        </div>
+    </div>
+    
+    <div class="section-title">Experience</div>
+    <div class="experience">
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">Full Stack Software Engineer <span class="separator">•</span> <span class="company">Centigrade</span> <span class="separator">—</span> <span class="dates">Apr 2025 – Aug 2025 | Santa Clara, CA</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Led PostgreSQL optimization redesigning schemas and indexes, reducing latency 60% and supporting 5x throughput increase for enterprise API services</li>
+                <li>Served as technical lead maintaining critical backend infrastructure and database systems for production clients with 99.9% uptime SLA</li>
+                <li>Provided production support troubleshooting complex database performance issues including query optimization, connection pooling, and index strategies</li>
+                <li>Implemented comprehensive monitoring solutions for database metrics, API performance, and system health checks</li>
+                <li>Established CI/CD infrastructure with CircleCI and GitHub Actions enabling automated testing and same-day deployments with zero downtime</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">Founding Engineer <span class="separator">•</span> <span class="company">CarbonSustain</span> <span class="separator">—</span> <span class="dates">May 2024 – Dec 2024 | Remote</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Architected production PostgreSQL databases with complex schemas, backup strategies, and high availability configurations for 3 enterprise pilots</li>
+                <li>Led AWS infrastructure design (EC2, S3, RDS, CloudFront) using Terraform as founding engineering team lead, managing all cloud resources</li>
+                <li>Provided 24/7 support troubleshooting critical incidents including database failures, connection issues, and performance degradation with documented resolution procedures</li>
+                <li>Designed comprehensive backup/recovery solutions with automated snapshots and point-in-time recovery achieving 2-hour RTO and 15-minute RPO</li>
+                <li>Developed monitoring systems tracking database performance metrics, connection pools, query execution times, and resource utilization</li>
+                <li>Built Node.js backend with RESTful APIs and microservices architecture supporting real-time transaction validation</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">R&D Software Engineer <span class="separator">•</span> <span class="company">Belden</span> <span class="separator">—</span> <span class="dates">Jul 2023 – May 2024 | San Jose, CA</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Maintained containerized applications using Kubernetes and Docker for industrial IoT cybersecurity platform serving enterprise clients</li>
+                <li>Optimized testing infrastructure re-architecting Android workflow, reducing execution time 40% and improving team productivity</li>
+                <li>Troubleshot complex distributed systems issues involving networking, containerization, REST APIs, and application integration</li>
+                <li>Developed container ingress features and integrated threat detection systems using Python and Java</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">Education</div>
+    <div class="education-section">
+        <div class="education-item">
+            <div class="degree-line">B.A., Computer Science <span class="separator">•</span> <span class="university">University of California, Berkeley</span> <span class="separator">—</span> <span class="dates">Aug 2019 – May 2023</span></div>
+            <div class="education-details">
+                Regents' and Chancellor's Scholar (top 1% merit scholarship) | Co-authored distributed systems research paper | UCSB Hackathon 2020 Grand Prize
+            </div>
+        </div>
+    </div>
+</body>
+</html>

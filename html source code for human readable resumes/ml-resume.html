@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kentaro Vadney - Resume</title>
+    <style>
+        @page {
+            size: A4;
+            margin: 0.5in;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Calibri', 'Arial', sans-serif;
+            font-size: 9pt;
+            line-height: 1.3;
+            color: #333;
+            max-width: 8.5in;
+            margin: 0 auto;
+            padding: 0.5in;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 10px;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 6px;
+        }
+        
+        .header h1 {
+            font-size: 18pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin-bottom: 2px;
+        }
+        
+        .job-target {
+            font-size: 10.5pt;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 3px;
+        }
+        
+        .contact-info {
+            font-size: 9.5pt;
+            color: #666;
+        }
+        
+        .contact-info a {
+            color: #2c5aa0;
+            text-decoration: none;
+        }
+        
+        .section-title {
+            font-size: 11pt;
+            font-weight: bold;
+            color: #2c5aa0;
+            margin: 12px 0 6px 0;
+            text-transform: uppercase;
+            border-bottom: 2px solid #2c5aa0;
+            padding-bottom: 2px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 5px 12px;
+            margin-bottom: 10px;
+            font-size: 9.5pt;
+        }
+        
+        .skill-category {
+            margin-bottom: 3px;
+        }
+        
+        .skill-label {
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .skill-items {
+            color: #333;
+        }
+        
+        .experience {
+            margin-top: 8px;
+        }
+        
+        .job {
+            margin-bottom: 10px;
+        }
+        
+        .job-header {
+            margin-bottom: 2px;
+        }
+        
+        .job-title-line {
+            font-weight: bold;
+            font-size: 10.5pt;
+        }
+        
+        .company {
+            color: #2c5aa0;
+        }
+        
+        .separator {
+            color: #666;
+        }
+        
+        .dates {
+            color: #666;
+        }
+        
+        .job-description {
+            margin-left: 16px;
+            margin-top: 3px;
+            font-size: 9pt;
+        }
+        
+        .job-description li {
+            margin-bottom: 1.5px;
+            list-style-type: disc;
+        }
+        
+        .education-section {
+            margin-top: 8px;
+        }
+        
+        .education-item {
+            margin-bottom: 6px;
+        }
+        
+        .degree-line {
+            font-weight: bold;
+            font-size: 10.5pt;
+            margin-bottom: 2px;
+        }
+        
+        .university {
+            color: #2c5aa0;
+        }
+        
+        .education-details {
+            margin-left: 16px;
+            margin-top: 2px;
+            font-size: 9.5pt;
+        }
+        
+        .education-details li {
+            margin-bottom: 1px;
+            list-style-type: circle;
+        }
+        
+        @media print {
+            body {
+                font-size: 9.5pt;
+            }
+            .header h1 {
+                font-size: 19pt;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KENTARO VADNEY</h1>
+        <div class="job-target">Python Developer | ML Pipelines & Distributed Computing</div>
+        <div class="contact-info">
+            116 Bruinswick Road, Alameda, CA 94502 | (424) 533-9384 | kentarovadney@gmail.com<br>
+            <a href="https://www.linkedin.com/in/kentarov/">linkedin.com/in/kentarov</a> | <a href="https://github.com/VadneyK">github.com/VadneyK</a>
+        </div>
+    </div>
+    
+    <div class="section-title">Technical Skills</div>
+    <div class="skills-grid">
+        <div class="skill-category">
+            <span class="skill-label">Languages:</span>
+            <span class="skill-items">Python (best), JavaScript/TypeScript, SQL, Java, Rust, Solidity</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">ML & Data Processing:</span>
+            <span class="skill-items">PyTorch, Dask, Pandas, NumPy, Scikit-learn, ML Pipeline Design, Model Deployment</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Distributed Computing:</span>
+            <span class="skill-items">Kubernetes, Docker, Microservices, Message Queues, Consensus Protocols</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Cloud Platforms:</span>
+            <span class="skill-items">AWS (EC2, S3, Lambda, Kendra), GCP, Azure, Terraform, CI/CD (GitHub Actions, CircleCI)</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Databases:</span>
+            <span class="skill-items">MongoDB, PostgreSQL, MySQL, Redis, Query Optimization, Schema Design, Performance Tuning</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Web Frameworks:</span>
+            <span class="skill-items">FastAPI, Flask, Django, React, Node.js, Express, RESTful APIs, GraphQL</span>
+        </div>
+    </div>
+    
+    <div class="section-title">Experience</div>
+    <div class="experience">
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">SWE＆ML AI Trainer <span class="separator">•</span> <span class="company">Mercor</span> <span class="separator">—</span> <span class="dates">Dec 2025 – Present</span> <span class="separator">•</span> <span class="dates">Remote (Contract)</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Engineered high-quality ML training datasets for LLM fine-tuning by annotating agentic trajectories, implementing solutions using PyTorch, LightGBM, XGBoost, and scikit-learn with 5-fold cross-validation on large-scale Kaggle datasets</li>
+                <li>Validated SWE-Bench Pro dataset for autonomous code agents, analyzing model failure patches against golden solutions to audit test fairness, identify legitimate failures, and improve LLM evaluation benchmarks</li>
+                <li>Developed golden responses and evaluation rubrics for AI agent training data, designing multi-step reasoning tasks with structured prompts, data synthesis pipelines, and domain-specific feature engineering workflows</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">Full Stack Software Engineer <span class="separator">•</span> <span class="company">Centigrade</span> <span class="separator">—</span> <span class="dates">Apr 2025 – Aug 2025</span> <span class="separator">•</span> <span class="dates">Santa Clara, CA</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Architected high-performance API services with FastAPI and Python, implementing advanced query optimization and caching strategies that supported 5x throughput increase and reduced database latency 60%</li>
+                <li>Built AWS Kendra AI search system with Python-based indexing pipeline processing 10,000+ documents, reducing manual discovery time 10+ hours/week through intelligent document retrieval</li>
+                <li>Optimized data processing workflows using Pandas and NumPy, improving ETL pipeline performance 3x through vectorization and parallel processing</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">Founding Software Engineer <span class="separator">•</span> <span class="company">CarbonSustain</span> <span class="separator">—</span> <span class="dates">May 2024 – Dec 2024</span> <span class="separator">•</span> <span class="dates">Remote</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Designed distributed transaction processing system with Python and Node.js, implementing real-time validation pipelines for blockchain-based carbon credit tracking across 3 enterprise deployments</li>
+                <li>Built scalable microservices architecture with FastAPI, implementing RESTful APIs and asynchronous task queues handling 1000+ transactions/day</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">R&D Software Engineer <span class="separator">•</span> <span class="company">Belden</span> <span class="separator">—</span> <span class="dates">Jul 2023 – May 2024</span> <span class="separator">•</span> <span class="dates">San Jose, CA</span></div>
+            </div>
+            <ul class="job-description">
+                <li>Developed ML-powered threat detection pipelines using Python, integrating LLM models for industrial IoT cybersecurity analysis with Kubernetes deployment at scale</li>
+                <li>Optimized machine learning model inference pipeline, reducing detection latency 40% through algorithm refinement</li>
+                <li>Enhanced threat detection models expanding coverage 30% through feature engineering, data augmentation, and model architecture improvements</li>
+            </ul>
+        </div>
+        
+        <div class="job">
+            <div class="job-header">
+                <div class="job-title-line">Additional Experience: <span class="dates">Research, Web3 & Berkeley (2019–2023)</span></div>
+            </div>
+            <ul class="job-description">
+                <li><strong>DAOLaunch & Berkeley Blockchain Xcelerator:</strong> Investment and product analyst roles; vetted web3 startups (code, team dynamics, market fit) for IDOs and accelerator programs; leadership and business development across Berkeley Engineering, Blockchain at Berkeley, and Haas (2021–2022)</li>
+                <li><strong>UC Berkeley RISE Lab:</strong> Distributed systems research (RSM in BFT environments); literature review; consensus work in Python/Rust; co-authored peer-reviewed Byzantine fault tolerance research (2021)</li>
+                <li><strong>Internships & campus roles (2019–2021):</strong> Full stack (Astar), frontend (OKX, React/Node); Haas AI labor market RA; Bancroft Japanese linguistics and translation (Uchida papers); Blockchain at Berkeley member; Genero strategy intern, Tokyo</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="section-title">Education</div>
+    <div class="education-section">
+        <div class="education-item">
+            <div class="degree-line">B.A., Computer Science <span class="separator">•</span> <span class="university">University of California, Berkeley</span> <span class="separator">—</span> <span class="dates">Aug 2019 – May 2023</span></div>
+            <ul class="education-details">
+                <li>Regents' and Chancellor's Scholar (top 1% merit scholarship)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
