@@ -7,180 +7,196 @@
     <style>
         @page {
             size: A4;
-            margin: 0.5in;
+            margin: 0.4in;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Calibri', 'Arial', sans-serif;
-            font-size: 9pt;
-            line-height: 1.3;
+            font-size: 8.5pt;
+            line-height: 1.25;
             color: #333;
             max-width: 8.5in;
             margin: 0 auto;
-            padding: 0.5in;
+            padding: 0.4in;
         }
-        
+
         .header {
             text-align: center;
-            margin-bottom: 10px;
+            margin-bottom: 7px;
             border-bottom: 2px solid #2c5aa0;
-            padding-bottom: 6px;
+            padding-bottom: 5px;
         }
-        
+
         .header h1 {
-            font-size: 18pt;
+            font-size: 17pt;
             font-weight: bold;
             color: #2c5aa0;
             margin-bottom: 2px;
         }
-        
+
         .job-target {
-            font-size: 10.5pt;
+            font-size: 10pt;
             font-weight: bold;
             color: #555;
-            margin-bottom: 3px;
+            margin-bottom: 2px;
         }
-        
+
         .contact-info {
-            font-size: 9.5pt;
+            font-size: 9pt;
             color: #666;
         }
-        
+
         .contact-info a {
             color: #2c5aa0;
             text-decoration: none;
         }
-        
+
         .professional-summary {
-            margin-bottom: 12px;
-            padding: 8px;
+            margin-bottom: 8px;
+            padding: 6px 8px;
             background: #f8f9ff;
             border-left: 3px solid #2c5aa0;
-            line-height: 1.35;
-            font-size: 9.5pt;
+            line-height: 1.3;
+            font-size: 9pt;
         }
-        
+
         .section-title {
-            font-size: 11pt;
+            font-size: 10.5pt;
             font-weight: bold;
             color: #2c5aa0;
-            margin: 12px 0 6px 0;
+            margin: 8px 0 4px 0;
             text-transform: uppercase;
             border-bottom: 2px solid #2c5aa0;
             padding-bottom: 2px;
         }
-        
+
         .skills-grid {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 5px 12px;
-            margin-bottom: 10px;
-            font-size: 9.5pt;
+            gap: 3px 12px;
+            margin-bottom: 6px;
+            font-size: 9pt;
         }
-        
+
         .skill-category {
-            margin-bottom: 3px;
+            margin-bottom: 1px;
         }
-        
+
         .skill-label {
             font-weight: bold;
             color: #2c5aa0;
         }
-        
+
         .skill-items {
             color: #333;
         }
-        
+
         .experience {
-            margin-top: 8px;
+            margin-top: 4px;
         }
-        
+
         .job {
-            margin-bottom: 10px;
+            margin-bottom: 6px;
         }
-        
+
         .job-header {
-            margin-bottom: 2px;
+            margin-bottom: 1px;
         }
-        
+
         .job-title-line {
             font-weight: bold;
-            font-size: 10.5pt;
+            font-size: 10pt;
         }
-        
+
         .company {
             color: #2c5aa0;
         }
-        
+
         .separator {
             color: #666;
         }
-        
+
         .dates {
             color: #666;
         }
-        
+
         .job-description {
-            margin-left: 16px;
-            margin-top: 3px;
-            font-size: 9pt;
+            margin-left: 14px;
+            margin-top: 2px;
+            font-size: 8.5pt;
         }
-        
+
         .job-description li {
-            margin-bottom: 1.5px;
+            margin-bottom: 1px;
             list-style-type: disc;
         }
-        
+
+        .sub-role {
+            margin-left: 14px;
+            border-left: 2px solid #d0d8ec;
+            padding-left: 8px;
+        }
+
+        .sub-role-header {
+            margin-top: 4px;
+            margin-bottom: 2px;
+            font-size: 9pt;
+        }
+
+        .sub-role .job-description {
+            font-size: 8pt;
+        }
+
         .education-section {
-            margin-top: 8px;
+            margin-top: 4px;
         }
-        
+
         .education-item {
-            margin-bottom: 6px;
+            margin-bottom: 3px;
         }
-        
+
         .degree-line {
             font-weight: bold;
-            font-size: 10.5pt;
-            margin-bottom: 2px;
+            font-size: 10pt;
+            margin-bottom: 1px;
         }
-        
+
         .university {
             color: #2c5aa0;
         }
-        
+
         .education-details {
-            margin-left: 16px;
-            margin-top: 2px;
-            font-size: 9.5pt;
+            margin-left: 14px;
+            margin-top: 1px;
+            font-size: 9pt;
         }
-        
+
         .education-details li {
-            margin-bottom: 1px;
+            margin-bottom: 0;
             list-style-type: circle;
         }
-        
+
         .publications {
             margin-top: 8px;
             font-size: 9.5pt;
         }
-        
+
         .publication-item {
             margin-bottom: 4px;
             margin-left: 16px;
         }
-        
+
         .publication-title {
             font-weight: bold;
             color: #333;
         }
-        
+
         @media print {
             body {
                 font-size: 9.5pt;
@@ -194,85 +210,126 @@
 <body>
     <div class="header">
         <h1>KENTARO VADNEY</h1>
-        <div class="job-target">Full-Stack Software Engineer | Blockchain & AI Systems</div>
+        <div class="job-target">Full Stack Engineer | AI-Native Fintech & Autonomous Agent Systems</div>
         <div class="contact-info">
             Alameda, CA 94502 | (424) 533-9384 | kentarovadney@gmail.com<br>
             <a href="https://www.linkedin.com/in/kentarov/">linkedin.com/in/kentarov</a> | <a href="https://github.com/VadneyK">github.com/VadneyK</a>
         </div>
     </div>
-    
+
     <div class="professional-summary">
-        Full-Stack Software Engineer with 2+ years building production web services, blockchain infrastructure, and AI systems. Led backend optimizations reducing page load times 50% and database latency 60% while supporting 5x throughput increases. Deployed blockchain nodes, shipped enterprise MVPs, and co-authored distributed systems research. Seeking roles in ML/AI, blockchain, or distributed systems.
+        Full Stack Engineer operating as a one-person engineering team via AI agent dispatch — shipping production fintech features at multi-engineer velocity by running parallel Claude Code agents across a 86-issue backlog. Built Insomniac Hedge Fund from scratch: Next.js 16, React 19, FastAPI on GCP Cloud Run, five stock screeners, LangGraph financial planning agent, Plaid integration, and Auth0 RBAC. Designed the agentic dev infrastructure itself: custom slash commands, parallel multi-agent loops (backend-dev, frontend-dev, screener-analyst), and 15+ MCP server integrations enabling autonomous issue-to-PR pipelines. Previously cut frontend load time 50%+ and rewrote APIs for 5x throughput at Centigrade; trained LLM datasets at Mercor (SWE-Bench Pro). UC Berkeley CS, top 1% merit scholar.
     </div>
-    
+
     <div class="section-title">Technical Skills</div>
     <div class="skills-grid">
         <div class="skill-category">
             <span class="skill-label">Languages:</span>
-            <span class="skill-items">Python, JavaScript, TypeScript, Java, Rust, SQL, Solidity, HTML/CSS</span>
+            <span class="skill-items">TypeScript, JavaScript, Python, SQL, Java, Rust, Solidity, HTML/CSS</span>
         </div>
         <div class="skill-category">
-            <span class="skill-label">Frameworks & Libraries:</span>
-            <span class="skill-items">React, Node.js, FastAPI, Flask, Express, Django, Angular, Tailwind, PyTorch</span>
+            <span class="skill-label">Frontend:</span>
+            <span class="skill-items">React 19, Next.js 16 (App Router), Tailwind CSS v4, shadcn/ui, Radix UI, Framer Motion, Recharts</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">Backend & APIs:</span>
+            <span class="skill-items">FastAPI, Node.js, Express, Flask, RESTful APIs, SSE streaming, Auth0 RBAC, Plaid, GraphQL</span>
+        </div>
+        <div class="skill-category">
+            <span class="skill-label">AI & Agentic Tools:</span>
+            <span class="skill-items">Claude Code, LangGraph, LangSmith, MCP servers (GitHub, Postgres, Playwright, Auth0), LangChain, Gemini, GPT-4, PyTorch, LLM integration</span>
         </div>
         <div class="skill-category">
             <span class="skill-label">Cloud & DevOps:</span>
-            <span class="skill-items">AWS (EC2, S3, Kendra, CloudFront), Docker, Kubernetes, Terraform, GitHub Actions, CircleCI</span>
-        </div>
-        <div class="skill-category">
-            <span class="skill-label">APIs & Architecture:</span>
-            <span class="skill-items">RESTful APIs, Microservices, GraphQL, LLM Integration, Message Queues</span>
+            <span class="skill-items">GCP (Cloud Run, Cloud Build), AWS (EC2, S3, Kendra, CloudFront), Docker, Kubernetes, Terraform, GH Actions</span>
         </div>
         <div class="skill-category">
             <span class="skill-label">Databases:</span>
-            <span class="skill-items">PostgreSQL, MySQL, MongoDB, Redis, Query Optimization, Schema Design</span>
-        </div>
-        <div class="skill-category">
-            <span class="skill-label">Tools & Platforms:</span>
-            <span class="skill-items">Git, Jira, pytest, Jest, Dask, Pandas, NumPy</span>
+            <span class="skill-items">PostgreSQL, MySQL, MongoDB, Redis, Alembic migrations, Query Optimization</span>
         </div>
     </div>
-    
+
     <div class="section-title">Experience</div>
     <div class="experience">
         <div class="job">
             <div class="job-header">
-                <div class="job-title-line">Full Stack Software Engineer <span class="separator">•</span> <span class="company">Centigrade</span> <span class="separator">—</span> <span class="dates">Apr 2025 – Aug 2025</span> <span class="separator">•</span> <span class="dates">Santa Clara, CA</span></div>
+                <div class="job-title-line">Independent &amp; Contract Software Engineering <span class="separator">•</span> <span class="dates">2025 – Present</span> <span class="separator">•</span> <span class="dates">Remote</span></div>
             </div>
-            <ul class="job-description">
-                <li>Rewrote critical API services in FastAPI, optimized database schema/indexes, supporting 5x query throughput increase and reducing database latency by 60%</li>
-                <li>Redesigned frontend with React and Tailwind CSS, cutting Time-to-Interactive 50% and raising Lighthouse accessibility score from 30 to 90</li>
-                <li>Built AWS Kendra AI search prototype with Python indexing pipeline, reducing manual document discovery time by 10+ hours/week</li>
-                <li>Established CI/CD patterns with CircleCI/GitHub Actions, shortening release cycle from multi-day to same-day deployments</li>
-            </ul>
+
+            <div class="sub-role">
+                <div class="sub-role-header">
+                    <span style="font-weight: bold;">Full Stack Engineer</span>
+                    <span class="separator"> • </span>
+                    <span class="company" style="font-weight: bold;">Insomniac Hedge Fund</span>
+                    <span class="separator"> • </span>
+                    <span class="dates">2026</span>
+                </div>
+                <ul class="job-description">
+                    <li>Built production fintech web app with Next.js 16, React 19, TypeScript, and Tailwind CSS v4 — shipped AI chat with SSE streaming, five stock screeners (EVS, Attaboy, Perfect 10, Insider Buying, RATS), financial planning, budget tools, and Plaid bank account integration</li>
+                    <li>Engineered real-time chat with dual LLM backend (Gemini primary, GPT-4 fallback), Auth0 RBAC across user/org/platform admin tiers, and a 27-component shadcn/ui + Radix UI library covering screener, financial statement, tax organizer, and admin UIs</li>
+                    <li>Designed FastAPI backend on GCP Cloud Run with Alembic migrations, APScheduler nightly pipelines, SEC EDGAR insider transaction feeds, and Yahoo Finance earnings data integrations</li>
+                    <li>Operates as sole engineer via AI agent dispatch: parallel Claude Code agents (backend-dev, frontend-dev, screener-analyst) autonomously pick GitHub issues, branch, implement, and open PRs — sustaining multi-engineer velocity solo; built custom slash commands, 15+ MCP integrations, and LangSmith eval pipelines</li>
+                </ul>
+            </div>
+
+            <div class="sub-role">
+                <div class="sub-role-header">
+                    <span style="font-weight: bold;">Full Stack Engineer</span>
+                    <span class="separator"> • </span>
+                    <span class="company" style="font-weight: bold;">Centigrade</span>
+                    <span class="separator"> • </span>
+                    <span class="dates">2025</span>
+                </div>
+                <ul class="job-description">
+                    <li>Redesigned full frontend with React and Tailwind CSS, cutting Time-to-Interactive 50% and raising Lighthouse accessibility score from 30 to 90 through component refactoring, lazy loading, and semantic HTML improvements</li>
+                    <li>Rewrote critical API services in FastAPI with optimized schema and indexes, 5x query throughput and 60% latency reduction</li>
+                    <li>Built AWS Kendra AI search system with Python indexing pipeline processing 10,000+ documents, reducing manual document discovery 10+ hrs/week; established CI/CD with CircleCI/GitHub Actions cutting release cycle to same-day</li>
+                </ul>
+            </div>
+
+            <div class="sub-role">
+                <div class="sub-role-header">
+                    <span style="font-weight: bold;">SWE &amp; ML AI Trainer</span>
+                    <span class="separator"> • </span>
+                    <span class="company" style="font-weight: bold;">Mercor</span>
+                    <span class="separator"> • </span>
+                    <span class="dates">2025 </span>
+                </div>
+                <ul class="job-description">
+                    <li>Engineered ML training datasets for LLM fine-tuning using PyTorch, LightGBM, and XGBoost with 5-fold cross-validation on large datasets</li>
+                    <li>Validated SWE-Bench Pro dataset for autonomous code agents, analyzing model failure patches against golden solutions to audit test fairness and improve LLM evaluation benchmarks</li>
+                    <li>Designed multi-step reasoning rubrics and evaluation frameworks for AI agent training data with structured prompts workflows</li>
+                </ul>
+            </div>
         </div>
-        
+
         <div class="job">
             <div class="job-header">
-                <div class="job-title-line">Founding Full Stack Software Engineer <span class="separator">•</span> <span class="company">CarbonSustain</span> <span class="separator">—</span> <span class="dates">May 2024 – Dec 2024</span> <span class="separator">•</span> <span class="dates">Remote</span></div>
+                <div class="job-title-line">Founding Full Stack Software Engineer <span class="separator">•</span> <span class="company">CarbonSustain</span> <span class="separator">•</span> <span class="dates">May 2024 – Dec 2024</span> <span class="separator">•</span> <span class="dates">Remote</span></div>
             </div>
-  <ul class="job-description">
-                <li>Architected blockchain-based carbon credit tracking system from prototype to MVP as 2-person founding engineering team lead</li>
+            <ul class="job-description">
+                <li>Architected blockchain-based carbon credit tracking system from prototype to MVP as 2-person founding engineering team lead; project pivoted following Series A funding headwinds</li>
                 <li>Built Node.js backend with XRPL integration and FastAPI microservices, supporting real-time transaction validation for 3 enterprise pilots</li>
                 <li>Integrated Angular/TypeScript frontend with PostgreSQL, implementing RESTful APIs and authentication flows for production</li>
                 <li>Designed AWS infrastructure with Terraform (EC2, S3, CloudFront) and CI/CD pipelines enabling zero-downtime releases</li>
             </ul>
         </div>
-        
+
         <div class="job">
             <div class="job-header">
-                <div class="job-title-line">R&D Software Engineer <span class="separator">•</span> <span class="company">Belden</span> <span class="separator">—</span> <span class="dates">Jul 2023 – May 2024</span> <span class="separator">•</span> <span class="dates">San Jose, CA</span></div>
+                <div class="job-title-line">R&amp;D Software Engineer <span class="separator">•</span> <span class="company">Belden</span> <span class="separator">•</span> <span class="dates">Jul 2023 – May 2024</span> <span class="separator">•</span> <span class="dates">San Jose, CA</span></div>
             </div>
             <ul class="job-description">
-                <li>Developed container ingress features and LLM-powered threat detection using Python, Java, REST APIs, and Kubernetes for industrial IoT cybersecurity</li>
+                <li>Selected for Belden's competitive 3-Year Engineering &amp; Management Trainee Program; transitioned to co-found startup </li>
+                <li>Developed container ingress features and LLM-powered threat detection using Python, Java, REST APIs, and Kubernetes for IoT</li>
                 <li>Re-architected Android testing workflow, reducing test execution time 40% and improving code modularity and team productivity</li>
                 <li>Re-designed AI models expanding threat detection coverage by 30% against emerging OT/IT attack patterns</li>
             </ul>
         </div>
-        
+
         <div class="job">
             <div class="job-header">
-                <div class="job-title-line">Additional Experience: <span class="dates">Research & Blockchain Roles (2021-2022)</span></div>
+                <div class="job-title-line">Research &amp; Early Career <span class="dates">(2021–2022)</span></div>
             </div>
             <ul class="job-description">
                 <li><strong>UC Berkeley RISE Lab Researcher:</strong> Led 5-person research team investigating consensus protocols; co-authored peer-reviewed paper on Byzantine fault tolerance optimizations</li>
@@ -281,13 +338,13 @@
             </ul>
         </div>
     </div>
-    
+
     <div class="section-title">Education</div>
     <div class="education-section">
         <div class="education-item">
-            <div class="degree-line">B.A., Computer Science <span class="separator">•</span> <span class="university">University of California, Berkeley</span> <span class="separator">—</span> <span class="dates">Aug 2019 – May 2023</span></div>
+            <div class="degree-line">B.A., Computer Science <span class="separator">•</span> <span class="university">University of California, Berkeley</span> <span class="separator">•</span> <span class="dates">Aug 2019 – May 2023</span></div>
             <ul class="education-details">
-                <li>Regents' and Chancellor's Scholar (top 1% merit scholarship) • UCSB Hackathon 2020 Grand Prize • Co-authored distributed systems research paper</li>
+                <li>UC Berkeley top 1% merit scholarship • UCSB Hackathon 2020 Grand Prize • Co-authored systems research paper</li>
             </ul>
         </div>
     </div>

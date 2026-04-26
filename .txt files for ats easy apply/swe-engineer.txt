@@ -1,0 +1,86 @@
+Personal Information
+First name: Kentaro
+Last name: Vadney
+Email: kentarovadney@gmail.com
+Confirm email: kentarovadney@gmail.com
+City: Alameda, CA
+Phone number: (424) 533-9384
+
+Experience
+- Title: Full Stack Engineer (Sole Engineer / Founder)
+  Company: Insomniac Hedge Fund
+  Location: Remote
+  Dates: Jan 2026 – Present
+  Highlights:
+  - Built production fintech web app from scratch: Next.js 16, React 19, TypeScript, Tailwind CSS v4, FastAPI on GCP Cloud Run.
+  - Shipped AI chat with SSE streaming, five stock screeners (EVS, Attaboy, Perfect 10, Insider Buying, RATS), LangGraph financial planning agent, budget tools, and Plaid bank account integration.
+  - Engineered real-time LLM chat with Gemini primary / GPT-4 fallback, Auth0 RBAC across user/org/platform-admin tiers, and 27-component shadcn/ui + Radix UI library.
+  - Designed FastAPI backend with Alembic migrations, APScheduler nightly pipelines, SEC EDGAR insider feeds, and Yahoo Finance integrations.
+  - Operates as sole engineer via AI agent dispatch: parallel Claude Code agents autonomously pick GitHub issues, branch, implement, and open PRs — sustaining multi-engineer velocity solo; built custom slash commands, 15+ MCP integrations, and LangSmith eval pipelines.
+
+- Title: Full Stack Engineer (Contract)
+  Company: Centigrade
+  Location: Remote
+  Dates: 2025
+  Highlights:
+  - Redesigned full frontend with React and Tailwind CSS, cutting Time-to-Interactive 50% and raising Lighthouse accessibility score from 30 to 90.
+  - Rewrote critical API services in FastAPI, achieving 5x query throughput and 60% latency reduction.
+  - Built AWS Kendra AI search pipeline processing 10,000+ documents; established CI/CD with CircleCI/GitHub Actions cutting release cycle to same-day.
+
+- Title: SWE & ML AI Trainer (Contract)
+  Company: Mercor
+  Location: Remote
+  Dates: 2025
+  Highlights:
+  - Engineered ML training datasets for LLM fine-tuning using PyTorch, LightGBM, and XGBoost with 5-fold cross-validation.
+  - Validated SWE-Bench Pro v2 dataset for autonomous code agents; audited model failure patches against golden solutions to improve LLM evaluation benchmarks.
+  - Designed multi-step reasoning rubrics and evaluation frameworks for AI agent training data.
+
+- Title: Founding Full Stack Software Engineer
+  Company: CarbonSustain
+  Location: Remote
+  Dates: May 2024 – Dec 2024
+  Highlights:
+  - Architected blockchain-based carbon credit tracking system from prototype to MVP as 2-person founding engineering team lead.
+  - Built Node.js backend with XRPL integration and FastAPI microservices; integrated Angular/TypeScript frontend with PostgreSQL.
+  - Designed AWS infrastructure with Terraform (EC2, S3, CloudFront) and CI/CD pipelines enabling zero-downtime releases.
+
+- Title: R&D Software Engineer
+  Company: Belden
+  Location: San Jose, CA
+  Dates: Jul 2023 – May 2024
+  Highlights:
+  - Selected for competitive 3-Year Engineering & Management Trainee Program.
+  - Developed container ingress features and LLM-powered threat detection using Python, Java, REST APIs, and Kubernetes for IoT.
+  - Re-architected Android testing workflow reducing test execution time 40%.
+  - Re-designed AI models expanding threat detection coverage 30% against OT/IT attack patterns.
+
+- Title: Research Engineer (Distributed Systems)
+  Company: UC Berkeley RISE Lab
+  Location: Berkeley, CA
+  Dates: 2021 – 2022
+  Highlights:
+  - Led 5-person research team investigating consensus protocols; co-authored peer-reviewed paper on Byzantine fault tolerance optimizations.
+  - Evaluated 50+ startups for Berkeley Blockchain Accelerator (portfolio raised $650M+); deployed Stellar validator nodes on AWS Kubernetes.
+
+Education
+Institution: University of California, Berkeley
+Major: Computer Science
+Degree: Bachelor of Arts (BA)
+School location: Berkeley, CA
+Description: Regents' & Chancellor's Scholar (top 1% merit). Coursework in systems, distributed computing, and machine learning. Co-authored systems research paper on Byzantine fault tolerance. UCSB Hackathon Grand Prize (SB Hacks VII, 2021). UC Berkeley RISE Lab researcher.
+From: Aug 2019
+To: May 2023
+I currently attend: No
+
+Your Profiles
+LinkedIn: https://www.linkedin.com/in/kentarov/
+GitHub: https://github.com/VadneyK
+
+Resume (text)
+Kentaro Vadney — Full Stack Engineer operating as a one-person engineering team via AI agent dispatch, shipping production fintech features at multi-engineer velocity. Built Insomniac Hedge Fund from scratch: Next.js 16, React 19, FastAPI on GCP Cloud Run, five stock screeners, LangGraph financial planning agent, Plaid integration, and Auth0 RBAC. Designed agentic dev infrastructure: custom slash commands, parallel multi-agent loops (backend-dev, frontend-dev, screener-analyst), 15+ MCP server integrations, and LangSmith eval pipelines enabling autonomous issue-to-PR workflows. Previously cut frontend TTI 50%+ and rewrote APIs for 5x throughput at Centigrade; trained LLM datasets for SWE-Bench Pro at Mercor. UC Berkeley CS, Regents' Scholar.
+
+Skills: TypeScript, JavaScript, Python, SQL, React 19, Next.js 16, Tailwind CSS, FastAPI, Node.js, LangGraph, LangSmith, Claude Code, MCP servers, Gemini, GPT-4, PostgreSQL, Redis, GCP Cloud Run, AWS, Docker, Terraform, Auth0, Plaid, Alembic, GitHub Actions.
+
+Message to the Hiring Team
+I'm a UC Berkeley CS graduate currently building and operating a full-stack fintech platform as the sole engineer, using parallel AI agent dispatch to sustain multi-engineer velocity solo. I've shipped everything from real-time LLM chat and five custom stock screeners to Plaid bank integration and a LangGraph financial planning agent — all on a production GCP stack with Auth0, Alembic migrations, and nightly data pipelines. What makes my work distinctive is that I also designed the engineering infrastructure itself: the Claude Code agent workflows, MCP integrations, and LangSmith eval pipelines that let me ship at this pace alone. Before that, I cut load times 50%+ at Centigrade, built LLM training datasets at Mercor, and co-authored distributed systems research at Berkeley's RISE Lab. I'm looking to bring that same combination of product instinct, full-stack depth, and AI-native engineering to a team working on something meaningful.
