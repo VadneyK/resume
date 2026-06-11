@@ -3,7 +3,7 @@ First name: Kentaro
 Last name: Vadney
 Email: kentarovadney@gmail.com
 Confirm email: kentarovadney@gmail.com
-City: Santa Clara, CA
+City: Alameda, CA
 Phone number: (424) 533-9384
 
 Experience
