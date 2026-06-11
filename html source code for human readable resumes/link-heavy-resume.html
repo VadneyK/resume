@@ -6,75 +6,75 @@
     <title>Kentaro Vadney - Resume</title>
     <style>
         @page {
-            size: A4;
-            margin: 0.5in;
+            size: Letter;
+            margin: 0.3in;
         }
-        
+
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
-        
+
         body {
             font-family: 'Calibri', 'Arial', sans-serif;
-            font-size: 10pt;
-            line-height: 1.3;
+            font-size: 8.5pt;
+            line-height: 1.2;
             color: #333;
             max-width: 8.5in;
             margin: 0 auto;
-            padding: 0.5in;
+            padding: 0.3in;
         }
-        
+
         .header {
             text-align: center;
-            margin-bottom: 15px;
+            margin-bottom: 6px;
             border-bottom: 2px solid #2c5aa0;
-            padding-bottom: 8px;
+            padding-bottom: 3px;
         }
-        
+
         .header h1 {
-            font-size: 22pt;
+            font-size: 17pt;
             font-weight: bold;
             color: #2c5aa0;
-            margin-bottom: 4px;
+            margin-bottom: 2px;
         }
         
         .contact-info {
-            font-size: 10pt;
+            font-size: 8.5pt;
             color: #666;
         }
-        
+
         .top-section {
             display: flex;
-            gap: 20px;
-            margin-bottom: 15px;
+            gap: 12px;
+            margin-bottom: 6px;
         }
-        
+
         .technical-skills {
-            flex: 1;
-            border: 2px solid #2c5aa0;
-            padding: 12px;
-            border-radius: 5px;
+            flex: 1.15;
+            border: 1.5px solid #2c5aa0;
+            padding: 6px 8px;
+            border-radius: 4px;
             background: #f8f9ff;
         }
-        
+
         .education {
             flex: 1;
-            padding: 12px;
+            padding: 6px 4px;
         }
-        
+
         .section-title {
-            font-size: 12pt;
+            font-size: 10pt;
             font-weight: bold;
             color: #2c5aa0;
-            margin-bottom: 8px;
+            margin-bottom: 4px;
             text-transform: uppercase;
             border-bottom: 1px solid #2c5aa0;
         }
-        
+
         .skill-category {
-            margin-bottom: 6px;
+            margin-bottom: 2px;
         }
         
         .skill-label {
@@ -96,111 +96,97 @@
         }
         
         .education-item {
-            margin-bottom: 8px;
+            margin-bottom: 4px;
         }
-        
+
         .university {
             font-weight: bold;
-            font-size: 11pt;
+            font-size: 9.5pt;
             color: #2c5aa0;
         }
-        
+
         .degree {
             font-weight: bold;
-            margin: 2px 0;
+            margin: 1px 0;
         }
-        
+
         .scholarship {
             background: #fff2cc;
             border: 1px solid #d4ac0d;
             border-radius: 3px;
-            padding: 3px 6px;
+            padding: 1px 4px;
             font-weight: bold;
             color: #d4ac0d;
             display: inline-block;
-            margin: 2px 0;
-            font-size: 9pt;
+            margin: 1px 0;
+            font-size: 7.5pt;
         }
-        
+
         .award-highlight {
             background: #e8f4fd;
             border: 1px solid #2c5aa0;
             border-radius: 3px;
-            padding: 3px 6px;
+            padding: 1px 4px;
             font-weight: bold;
             color: #2c5aa0;
             display: inline-block;
-            margin: 2px 0;
-            font-size: 9pt;
+            margin: 1px 0;
+            font-size: 7.5pt;
         }
-        
+
         .experience {
-            margin-top: 15px;
+            margin-top: 6px;
         }
-        
+
         .job {
-            margin-bottom: 12px;
+            margin-bottom: 5px;
         }
-        
+
         .job-header {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
-            margin-bottom: 4px;
+            margin-bottom: 1px;
         }
-        
+
         .job-title {
             font-weight: bold;
-            font-size: 11pt;
+            font-size: 9.5pt;
         }
-        
+
         .company {
             font-weight: bold;
             color: #2c5aa0;
         }
-        
+
         .dates {
             font-style: italic;
             color: #666;
-            font-size: 9pt;
+            font-size: 8pt;
         }
-        
+
         .job-description {
             margin-left: 0;
         }
-        
+
         .job-description li {
-            margin-bottom: 2px;
+            margin-bottom: 0px;
             list-style-position: outside;
-            margin-left: 15px;
+            margin-left: 14px;
         }
-        
+
         .research-section {
-            margin-top: 10px;
-            padding: 8px;
+            margin-top: 4px;
+            padding: 4px 6px;
             background: #f5f5f5;
             border-radius: 3px;
+            font-size: 8pt;
         }
-        
+
         .research-title {
             font-weight: bold;
             color: #2c5aa0;
-            font-size: 10pt;
-        }
-        
-        @media print {
-            body {
-                font-size: 9pt;
-            }
-            .header h1 {
-                font-size: 20pt;
-            }
-            .section-title {
-                font-size: 11pt;
-            }
-            .job-title {
-                font-size: 10pt;
-            }
+            font-size: 8.5pt;
         }
     </style>
 </head>
@@ -231,28 +217,40 @@
             <div class="skill-category">
                 <span class="skill-label">Frameworks/Libraries:</span>
                 <span class="skill-items">
-                    <a href="https://react.dev" target="_blank">React</a>, 
-                    <a href="https://vitejs.dev" target="_blank">Vite</a>, 
-                    <a href="https://nodejs.org" target="_blank">Node.js</a>, 
-                    <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a>, 
-                    <a href="https://flask.palletsprojects.com" target="_blank">Flask</a>, 
-                    <a href="https://expressjs.com" target="_blank">Express</a>, 
-                    <a href="https://djangoproject.com" target="_blank">Django</a>, 
-                    <a href="https://angular.io" target="_blank">Angular</a>, 
-                    <a href="https://tailwindcss.com" target="_blank">Tailwind</a>, 
+                    <a href="https://react.dev" target="_blank">React</a>,
+                    <a href="https://nextjs.org" target="_blank">Next.js</a>,
+                    <a href="https://vitejs.dev" target="_blank">Vite</a>,
+                    <a href="https://nodejs.org" target="_blank">Node.js</a>,
+                    <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a>,
+                    <a href="https://flask.palletsprojects.com" target="_blank">Flask</a>,
+                    <a href="https://expressjs.com" target="_blank">Express</a>,
+                    <a href="https://djangoproject.com" target="_blank">Django</a>,
+                    <a href="https://angular.io" target="_blank">Angular</a>,
+                    <a href="https://tailwindcss.com" target="_blank">Tailwind</a>,
                     <a href="https://pytorch.org" target="_blank">PyTorch</a>
                 </span>
             </div>
             <div class="skill-category">
                 <span class="skill-label">Cloud & DevOps:</span>
                 <span class="skill-items">
-                    <a href="https://aws.amazon.com" target="_blank">AWS</a>, 
-                    <a href="https://docker.com" target="_blank">Docker</a>, 
-                    <a href="https://kubernetes.io" target="_blank">Kubernetes</a>, 
-                    <a href="https://terraform.io" target="_blank">Terraform</a>, 
-                    <a href="https://jenkins.io" target="_blank">Jenkins</a>, 
-                    <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a>, 
-                    <a href="https://circleci.com" target="_blank">CircleCI</a>
+                    <a href="https://cloud.google.com" target="_blank">GCP</a> (<a href="https://cloud.google.com/run" target="_blank">Cloud Run</a>, <a href="https://cloud.google.com/build" target="_blank">Cloud Build</a>),
+                    <a href="https://aws.amazon.com" target="_blank">AWS</a>,
+                    <a href="https://docker.com" target="_blank">Docker</a>,
+                    <a href="https://kubernetes.io" target="_blank">Kubernetes</a>,
+                    <a href="https://terraform.io" target="_blank">Terraform</a>,
+                    <a href="https://github.com/features/actions" target="_blank">GitHub Actions</a>,
+                    <a href="https://circleci.com" target="_blank">CircleCI</a>,
+                    <a href="https://jenkins.io" target="_blank">Jenkins</a>
+                </span>
+            </div>
+            <div class="skill-category">
+                <span class="skill-label">AI / LLM:</span>
+                <span class="skill-items">
+                    <a href="https://docs.anthropic.com/en/api" target="_blank">Anthropic API</a>,
+                    <a href="https://platform.openai.com" target="_blank">OpenAI API</a>,
+                    <a href="https://ai.google.dev" target="_blank">Gemini</a>,
+                    <a href="https://docs.claude.com/en/docs/claude-code" target="_blank">Claude Code</a>,
+                    multi-agent orchestration, RAG, prompt caching, evals
                 </span>
             </div>
             <div class="skill-category">
@@ -299,27 +297,30 @@
     
     <div class="experience">
         <div class="section-title">Experience</div>
-        
+
         <div class="job">
             <div class="job-header">
-                <div><span class="job-title">Full Stack Software Engineer</span> @ <span class="company">Centigrade</span></div>
-                <div class="dates">Apr 2025 – Aug 2025</div>
+                <div><span class="job-title">Founding Engineer</span> @ <span class="company">Veru365</span></div>
+                <div class="dates">Mar 2026 – Present</div>
             </div>
             <ul class="job-description">
-                <li>Led development of <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a> backend services and database migrations, improving query scalability and supporting 100tx/mo</li>
-                <li>Redesigned frontend routing and improved UI responsiveness with <a href="https://react.dev" target="_blank">React.js</a>/<a href="https://tailwindcss.com" target="_blank">Tailwind</a>, reducing page load time by 50% and boosting accessibility scores from 30 to 90</li>
-                <li>Created concept <a href="https://aws.amazon.com/kendra/" target="_blank">AWS Kendra</a> index with <a href="https://python.org" target="_blank">Python</a> powering product-wide AI search and summary features</li>
-                <li>Drove team workflow efficiency using <a href="https://atlassian.com/software/jira" target="_blank">Jira</a>, <a href="https://atlassian.com/software/confluence" target="_blank">Confluence</a>, <a href="https://github.com" target="_blank">GitHub</a> PRs, <a href="https://circleci.com" target="_blank">CircleCI</a>, and <a href="https://aws.amazon.com/amplify/" target="_blank">Amplify</a></li>
+                <li>Architecting a multi-tenant wealth-management SaaS for RIA firms — <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a>/<a href="https://python.org" target="_blank">Python</a> backend, <a href="https://nextjs.org" target="_blank">Next.js</a>/<a href="https://typescriptlang.org" target="_blank">TypeScript</a> frontend, <a href="https://postgresql.org" target="_blank">PostgreSQL</a> with row-level security, <a href="https://auth0.com" target="_blank">Auth0</a>, and per-tenant compliance schema for SEC/OCC/NCUA</li>
+                <li>Deployed on <a href="https://cloud.google.com" target="_blank">GCP</a> (<a href="https://cloud.google.com/run" target="_blank">Cloud Run</a>, <a href="https://cloud.google.com/build" target="_blank">Cloud Build</a>, <a href="https://terraform.io" target="_blank">Terraform</a>) across staging and production with automated CI/CD, <a href="https://alembic.sqlalchemy.org" target="_blank">Alembic</a> migrations, and GitHub-Actions-driven release gating</li>
+                <li>Built an AI agent suite (Harvey stock strategist, Freddy FPA planner, EVS / Attaboy / Insider screeners) on the <a href="https://docs.anthropic.com/en/api" target="_blank">Anthropic</a> and <a href="https://ai.google.dev" target="_blank">Gemini</a> APIs with RAG, evals, and multi-agent orchestration; ran nightly <a href="https://docs.claude.com/en/docs/claude-code" target="_blank">Claude Code</a> worker fleets to parallelize feature delivery</li>
+                <li>Integrated <a href="https://plaid.com" target="_blank">Plaid</a> for account aggregation and <a href="https://withpersona.com" target="_blank">Persona</a> for KYC/IDV; implemented PII encryption at rest, audit logging, and WORM-retention controls for compliance review</li>
+                <li>Authored 7 patent specifications spanning the PAGO data layer, multi-agent financial planner, per-tenant KMS encryption, and differentiated RAG; targeting provisional filings starting June 2026</li>
             </ul>
         </div>
-        
+
         <div class="job">
             <div class="job-header">
-                <div><span class="job-title">Founding Full Stack Software Engineer</span> @ <span class="company">CarbonSustain</span></div>
-                <div class="dates">May 2024 – Dec 2024</div>
+                <div><span class="job-title">Software Engineer</span> — <span class="company">Independent Contractor / Consultant</span> (Full-time)</div>
+                <div class="dates">May 2024 – May 2026</div>
             </div>
             <ul class="job-description">
-                <li>Led architecture and development of blockchain-based data and credit system from prototype to MVP</li>
+                <li><a href="https://mercor.com" target="_blank"><span class="company">Mercor</span></a> — SWE &amp; ML AI Trainer (2025–2026): contracted on Project Ignite, Project Ragnarok, and <a href="https://www.swebench.com" target="_blank">SWE-Bench</a> Pro v2; authored and graded production-grade <a href="https://python.org" target="_blank">Python</a>/<a href="https://typescriptlang.org" target="_blank">TypeScript</a> tasks used to train and benchmark frontier coding models</li>
+                <li><a href="https://centigrade.ai" target="_blank"><span class="company">Centigrade</span></a> — Full Stack SWE (2025): led <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a> backend services and database migrations supporting 100tx/mo; redesigned frontend routing with <a href="https://react.dev" target="_blank">React.js</a>/<a href="https://tailwindcss.com" target="_blank">Tailwind</a>, cutting page load 50% and lifting accessibility scores from 30 to 90; built concept <a href="https://aws.amazon.com/kendra/" target="_blank">AWS Kendra</a> index powering product-wide AI search</li>
+                <li><a href="https://carbonsustain.io" target="_blank"><span class="company">CarbonSustain</span></a> - Full Stack SWE (2024): led architecture and development of blockchain-based data and credit system from prototype to MVP</li>
                 <li>Built & deployed <a href="https://nodejs.org" target="_blank">Node.js</a> backend with <a href="https://fastapi.tiangolo.com" target="_blank">FastAPI</a> integrations and <a href="https://xrpl.org" target="_blank">XRPL</a> ledger connections</li>
                 <li>Integrated <a href="https://angular.io" target="_blank">Angular</a> and <a href="https://typescriptlang.org" target="_blank">TypeScript</a> <a href="https://github.com/deb-datta/carbonsustain_io_web" target="_blank">frontend</a> with <a href="https://postgresql.org" target="_blank">PostgreSQL</a> data <a href="https://github.com/deb-datta/carbonsustain_io_web" target="_blank">server</a> for scalable user-facing features</li>
                 <li>Designed and provisioned <a href="https://aws.amazon.com" target="_blank">AWS</a> infrastructure (<a href="https://aws.amazon.com/ec2/" target="_blank">EC2</a>, <a href="https://aws.amazon.com/s3/" target="_blank">S3</a>, <a href="https://aws.amazon.com/cloudfront/" target="_blank">CloudFront</a>, <a href="https://terraform.io" target="_blank">Terraform</a>) to support live production</li>

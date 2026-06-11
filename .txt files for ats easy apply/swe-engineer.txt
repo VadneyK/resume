@@ -8,7 +8,7 @@ Phone number: (424) 533-9384
 
 Experience
 - Title: Full Stack Engineer (Sole Engineer / Founder)
-  Company: Insomniac Hedge Fund
+  Company: Veru365
   Location: Remote
   Dates: Jan 2026 – Present
   Highlights:
@@ -78,7 +78,7 @@ LinkedIn: https://www.linkedin.com/in/kentarov/
 GitHub: https://github.com/VadneyK
 
 Resume (text)
-Kentaro Vadney — Full Stack Engineer operating as a one-person engineering team via AI agent dispatch, shipping production fintech features at multi-engineer velocity. Built Insomniac Hedge Fund from scratch: Next.js 16, React 19, FastAPI on GCP Cloud Run, five stock screeners, LangGraph financial planning agent, Plaid integration, and Auth0 RBAC. Designed agentic dev infrastructure: custom slash commands, parallel multi-agent loops (backend-dev, frontend-dev, screener-analyst), 15+ MCP server integrations, and LangSmith eval pipelines enabling autonomous issue-to-PR workflows. Previously cut frontend TTI 50%+ and rewrote APIs for 5x throughput at Centigrade; trained LLM datasets for SWE-Bench Pro at Mercor. UC Berkeley CS, Regents' Scholar.
+Kentaro Vadney — Full Stack Engineer operating as a one-person engineering team via AI agent dispatch, shipping production fintech features at multi-engineer velocity. Built Veru365 from scratch: Next.js 16, React 19, FastAPI on GCP Cloud Run, five stock screeners, LangGraph financial planning agent, Plaid integration, and Auth0 RBAC. Designed agentic dev infrastructure: custom slash commands, parallel multi-agent loops (backend-dev, frontend-dev, screener-analyst), 15+ MCP server integrations, and LangSmith eval pipelines enabling autonomous issue-to-PR workflows. Previously cut frontend TTI 50%+ and rewrote APIs for 5x throughput at Centigrade; trained LLM datasets for SWE-Bench Pro at Mercor. UC Berkeley CS, Regents' Scholar.
 
 Skills: TypeScript, JavaScript, Python, SQL, React 19, Next.js 16, Tailwind CSS, FastAPI, Node.js, LangGraph, LangSmith, Claude Code, MCP servers, Gemini, GPT-4, PostgreSQL, Redis, GCP Cloud Run, AWS, Docker, Terraform, Auth0, Plaid, Alembic, GitHub Actions.
 
